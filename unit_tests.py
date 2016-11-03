@@ -20,7 +20,7 @@ class BasketTests(unittest.TestCase):
     def test_price_is_number(self):
         self.assertTrue(isinstance(self.keijon_ostoskori.price, numbers.Number), "variable price should be a number")
     def test_list_add(self):
-        self.keijon_ostoskori.add_product("kaljaaa", 5)
+        self.keijon_ostoskori.add_product("kala", 5)
         self.assertIn("kala", self.keijon_ostoskori.contents, "add_product did not add product to the list")
     def test_list_delete(self):
         self.keijon_ostoskori.delete_product("kala", 5)
