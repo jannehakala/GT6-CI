@@ -36,4 +36,4 @@ class Basket:
         return self.price - self.price * discount
 
 # Making a test object:
-jarin_ostoskori = Basket("Jari", ["maito","banaani","hernekeitto"], 15)
+#jarin_ostoskori = Basket("Jari", ["maito","banaani","hernekeitto"], 15)
